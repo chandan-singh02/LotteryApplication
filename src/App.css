@@ -1,38 +1,83 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
+.owner{
+font-size: 1.2rem;
+font-weight: 400;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 0.4rem;
+}
+.lotteryhunt{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 1.9rem;
+font-weight: 500;
+border-bottom:2px solid #797282;
+}
+.manager{
+  font-size: 1.2rem;
+  color: #f90000;
+}
+.firstblock{
+  background: rgb(250, 250, 250);
+  margin: 0 0.4rem
+}
+.secondblock{
+  background: rgb(250, 250, 250);
+}
+.App{
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 50rem;
+  text-align: center;
+  background-color: white;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #e98f8f;
+  border: 1px solid #e98f8f;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  margin-top: 1rem;
+  border-radius: 17px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.amountether{
+  font-size: 1rem;
+  font-weight: 400;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:focus {
+  outline: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover,
+button:active {
+  background-color: #fb8989;
+  border-color: #460897;
 }
-
-.App-link {
-  color: #61dafb;
+input {
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  font-size: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button2{
+  margin-top:-6rem ;
+}
+.message{
+  color: #466e43;
 }
