@@ -10,35 +10,54 @@ html {
 body {
   margin: 0;
 }
-.owner{
-font-size: 1.2rem;
-font-weight: 400;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin-left: 0.4rem;
+.owner {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 0.4rem;
 }
-.lotteryhunt{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 1.9rem;
-font-weight: 500;
-border-bottom:2px solid #797282;
+.lotteryhunt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  border-bottom: 2px solid #797282;
 }
-.manager{
+.manager {
   font-size: 1.2rem;
   color: #f90000;
 }
-.firstblock{
-  background: rgb(250, 250, 250);
-  margin: 0 0.4rem
+.firstblock {
+  background: rgb(243, 243, 243);
+  margin: 0 0.4rem;
+  border-radius: 0.9rem;
 }
-.secondblock{
-  background: rgb(250, 250, 250);
+.tiger{
+  width: 6%;
+  height:6%;
+
 }
-.App{
+.messages{
+width: 50%;
+  height: 40%;
+
+  background-color: #787878;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondblock {
+  background: rgb(243, 243, 243);
+  width: 70%;
+  margin-top: 1rem;
+  border-radius: 0.9rem;
+}
+.App {
   display: flex;
 
   align-items: center;
   flex-direction: column;
-  margin: 1rem auto;
+  margin: 0.4rem auto;
   width: 90%;
   max-width: 50rem;
   text-align: center;
@@ -55,10 +74,9 @@ button {
   border-radius: 17px;
   text-align: center;
 }
-.amountether{
+.amountether {
   font-size: 1rem;
   font-weight: 400;
-  
 }
 
 button:focus {
@@ -75,9 +93,9 @@ input {
   border-bottom: 2px solid rgb(0, 0, 0);
   font-size: 1rem;
 }
-.button2{
-  margin-top:-6rem ;
+.button2 {
+  margin-top: -6rem;
 }
-.message{
+.message {
   color: #466e43;
 }
